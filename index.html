@@ -199,7 +199,7 @@
   .photo img{
     width:100%;
     display:block;
-    aspect-ratio:4/3;
+    aspect-ratio:3/4;
     object-fit:cover;
   }
   .photo figcaption{
@@ -479,7 +479,7 @@
   @media (min-width:640px){
     .photo-grid{grid-template-columns:1fr 1fr;}
     .photo-grid .photo:first-child{grid-column:1 / -1;}
-    .photo-grid .photo:first-child img{aspect-ratio:16/9;}
+    .photo-grid .photo:first-child img{aspect-ratio:4/3;object-position:center 40%;}
   }
   @media (max-width:560px){
     .stat-row{grid-template-columns:1fr;}
@@ -695,3 +695,4 @@
 
 </body>
 </html>
+
